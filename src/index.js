@@ -1,10 +1,6 @@
 const form = document.getElementById("form-deposit");
 const messageElement = document.querySelector(".message");
 
-const nameInput = document.getElementById("name").value;
-const bankAccountInput = document.getElementById("number").value;
-const valueInput = document.getElementById("value").value;
-
 function nameValidation(nome) {
   const fullName = nome.trim().split(" ");
   return fullName.length >= 2;
