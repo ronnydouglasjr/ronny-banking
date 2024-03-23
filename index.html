@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>HTML com JS</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ronny Banking</h1>
+      <h2>Depósitos</h2>
+        <form id="form-deposit">
+          <input type="text" name="name" id="name" required placeholder="Nome completo do beneficiario">
+          <input type="number" name="number" id="number" required placeholder="Numero da conta">
+          <input type="number" name="value" id="value" required placeholder="Valor">
+          <textarea name="description" id="description"  cols="30" rows="10" placeholder="Descrição (opcional)"></textarea>
+          <input type="submit" value="DEPOSITAR" id="button">
+        </form>
+        <div class="message">
+          
+        </div>
+    </div>
+    <script src="src/index.js" defer></script>
+  </body>
+</html>
